@@ -1,0 +1,6 @@
+@WriteApiDemo_HostAddress = http://localhost:5031
+
+GET {{WriteApiDemo_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
