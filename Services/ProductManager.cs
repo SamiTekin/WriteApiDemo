@@ -2,10 +2,12 @@
 using Entities.DataTransferObjects;
 using Entities.Exceptions;
 using Entities.Models;
+using Entities.RequestFeatures;
 using Repositories.Contracts;
 using Services.Contracts;
 using System;
 using System.Collections.Generic;
+using System.Dynamic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -17,42 +19,48 @@ namespace Services
         private readonly IRepositoryManager _manager;
         private readonly ILoggerService _logger;
         private readonly IMapper _mapper;
-
-        public ProductManager(IRepositoryManager manager, ILoggerService logger, IMapper mapper)
+        private readonly IDataShaper<ProductDto> _shaper;
+        public ProductManager(IRepositoryManager manager, ILoggerService logger, IMapper mapper, IDataShaper<ProductDto> shaper)
         {
             _manager = manager;
             _logger = logger;
             _mapper = mapper;
+            _shaper = shaper;
         }
 
-        public ProductDto CreateOneProduct(ProductDtoForInsertion productdto)
+        public async Task<ProductDto> CreateOneProductAsync(ProductDtoForInsertion productdto)
         {
-            var entity = _mapper.Map<Product>(productdto);
+            var entity =_mapper.Map<Product>(productdto);
             _manager.Product.CreateOneProduct(entity);
-            _manager.Save();
+            await _manager.SaveAsync();
             return _mapper.Map<ProductDto>(entity);
         }
 
-        public void DeleteOneProduct(int id, bool trackChanges)
+        public async Task DeleteOneProductAsync(int id, bool trackChanges)
         {
-            var entity = _manager.Product.GetProductsById(id, trackChanges);
+            var entity = await _manager.Product.GetProductsByIdAsync(id, trackChanges);
             if (entity == null)
             {
                 throw new ProductNotFoundException(id);
             }
             _manager.Product.DeleteOneProduct(entity);
-            _manager.Save();
+            await _manager.SaveAsync();
         }
 
-        public IEnumerable<ProductDto> GetAllProduct(bool trackChanges)
+        public async Task<(IEnumerable<ExpandoObject> product, MetaData metaData)> GetAllProductAsync(ProductParameters productParameters, bool trackChanges)
         {
-            var products= _manager.Product.GetAllProducts(trackChanges);
-            return _mapper.Map<IEnumerable<ProductDto>>(products);
+            if(!productParameters.ValidPriceRange)
+                throw new PriceOutofRangeBadRequestException();
+            var productsWithMetaData=await _manager.Product.GetAllProductsAsync(productParameters, trackChanges);
+            var productsDto=_mapper.Map<IEnumerable<ProductDto>>(productsWithMetaData);
+            var shapedData= _shaper.ShapeData(productsDto, productParameters.Fields);
+            
+            return (product:shapedData ,metaData: productsWithMetaData.MetaData);
         }
 
-        public ProductDto GetProductById(int id, bool trackChanges)
+        public async Task<ProductDto> GetProductByIdAsync(int id, bool trackChanges)
         {
-            var product= _manager.Product.GetProductsById(id, trackChanges);
+            var product=await _manager.Product.GetProductsByIdAsync(id, trackChanges);
             if (product == null)
             {
                 throw new ProductNotFoundException(id);
@@ -60,9 +68,9 @@ namespace Services
             return _mapper.Map<ProductDto>(product);
         }
 
-        public void UpdateOneProduct(int id, ProductDtoForUpdate productdto, bool trackChanges)
+        public async Task UpdateOneProductAsync(int id, ProductDtoForUpdate productdto, bool trackChanges)
         {
-            var entity = _manager.Product.GetProductsById(id, trackChanges);
+            var entity =await _manager.Product.GetProductsByIdAsync(id, trackChanges);
             if(entity == null)
             {
                 throw new ProductNotFoundException(id);
@@ -72,7 +80,7 @@ namespace Services
             entity = _mapper.Map<Product>(productdto);
 
             _manager.Product.Update(entity);
-            _manager.Save();
+            await _manager.SaveAsync();
         }
     }
 }

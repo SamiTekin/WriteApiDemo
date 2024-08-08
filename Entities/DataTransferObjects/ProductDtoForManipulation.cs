@@ -19,6 +19,6 @@ namespace Entities.DataTransferObjects
         public string ProductDescription { get; init; }
         [Required(ErrorMessage = "Bu alan boş geçilemez")]
         [Range(10, 200000, ErrorMessage ="Fiyat 10-200000 arasında olabilir.")]
-        public decimal Price { get; init; }
+        public decimal ProductPrice { get; set; }
     }
 }

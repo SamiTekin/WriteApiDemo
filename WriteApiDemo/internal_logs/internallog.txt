@@ -100,3 +100,363 @@
 2024-08-05 17:15:44.5978 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
 2024-08-05 17:15:44.5978 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
 2024-08-05 17:15:44.6208 Info Configuration initialized.
+2024-08-06 08:58:50.1867 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-06 08:58:50.2352 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-06 08:58:50.2352 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-06 08:58:50.2572 Info Configuration initialized.
+2024-08-06 09:00:18.4372 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-06 09:00:18.4585 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-06 09:00:18.4665 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-06 09:00:18.4665 Info Configuration initialized.
+2024-08-06 09:02:21.4784 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-06 09:02:21.4962 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-06 09:02:21.5040 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-06 09:02:21.5040 Info Configuration initialized.
+2024-08-06 09:02:48.4814 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-06 09:02:48.5055 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-06 09:02:48.5216 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-06 09:02:48.5429 Info Configuration initialized.
+2024-08-06 09:10:11.5240 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-06 09:10:11.5489 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-06 09:10:11.5588 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-06 09:10:11.5588 Info Configuration initialized.
+2024-08-06 09:11:56.3090 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-06 09:11:56.3273 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-06 09:11:56.3357 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-06 09:11:56.3453 Info Configuration initialized.
+2024-08-06 09:13:28.8266 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-06 09:13:28.8432 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-06 09:13:28.8432 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-06 09:13:28.8580 Info Configuration initialized.
+2024-08-06 09:18:46.1242 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-06 09:18:46.1480 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-06 09:18:46.1480 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-06 09:18:46.1647 Info Configuration initialized.
+2024-08-06 09:21:00.9741 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-06 09:21:00.9907 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-06 09:21:00.9907 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-06 09:21:01.0056 Info Configuration initialized.
+2024-08-06 09:30:41.2951 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-06 09:30:41.3276 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-06 09:30:41.3406 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-06 09:30:41.3526 Info Configuration initialized.
+2024-08-06 09:47:12.3035 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-06 09:47:12.3515 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-06 09:47:12.3692 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-06 09:47:12.3836 Info Configuration initialized.
+2024-08-06 10:11:10.3701 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-06 10:11:10.3974 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-06 10:11:10.4101 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-06 10:11:10.4101 Info Configuration initialized.
+2024-08-06 10:15:58.9183 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-06 10:15:58.9438 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-06 10:15:58.9438 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-06 10:15:58.9669 Info Configuration initialized.
+2024-08-06 10:17:25.3713 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-06 10:17:25.3884 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-06 10:17:25.3981 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-06 10:17:25.3981 Info Configuration initialized.
+2024-08-06 10:19:24.6549 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-06 10:19:24.6738 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-06 10:19:24.6838 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-06 10:19:24.6981 Info Configuration initialized.
+2024-08-06 10:20:11.8643 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-06 10:20:11.8865 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-06 10:20:11.8865 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-06 10:20:11.9074 Info Configuration initialized.
+2024-08-06 10:21:36.1596 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-06 10:21:36.1921 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-06 10:21:36.2077 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-06 10:21:36.2258 Info Configuration initialized.
+2024-08-06 11:04:35.6608 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-06 11:04:35.6869 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-06 11:04:35.6983 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-06 11:04:35.7090 Info Configuration initialized.
+2024-08-06 11:54:55.6685 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-06 11:54:55.7280 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-06 11:54:55.7280 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-06 11:54:55.7473 Info Configuration initialized.
+2024-08-06 12:03:00.4590 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-06 12:03:00.5041 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-06 12:03:00.5209 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-06 12:03:00.5448 Info Configuration initialized.
+2024-08-06 13:31:14.8350 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-06 13:31:14.8593 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-06 13:31:14.8749 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-06 13:31:14.8749 Info Configuration initialized.
+2024-08-06 13:33:51.7794 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-06 13:33:51.8052 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-06 13:33:51.8138 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-06 13:33:51.8138 Info Configuration initialized.
+2024-08-06 13:34:58.3738 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-06 13:34:58.4022 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-06 13:34:58.4180 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-06 13:34:58.4180 Info Configuration initialized.
+2024-08-06 13:42:02.3778 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-06 13:42:02.4223 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-06 13:42:02.4223 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-06 13:42:02.4223 Info Configuration initialized.
+2024-08-06 13:48:24.8278 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-06 13:48:24.9011 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-06 13:48:24.9224 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-06 13:48:24.9610 Info Configuration initialized.
+2024-08-06 17:00:53.3201 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-06 17:00:53.3361 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-06 17:00:53.3361 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-06 17:00:53.3482 Info Configuration initialized.
+2024-08-06 17:00:54.5081 Info AppDomain Shutting down. LogFactory closing...
+2024-08-06 17:00:54.5081 Info LogFactory has been closed.
+2024-08-06 17:01:08.8821 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-06 17:01:08.8821 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-06 17:01:08.8964 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-06 17:01:08.8964 Info Configuration initialized.
+2024-08-06 17:01:11.4238 Info AppDomain Shutting down. LogFactory closing...
+2024-08-06 17:01:11.4238 Info LogFactory has been closed.
+2024-08-06 17:06:18.2184 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-06 17:06:18.2277 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-06 17:06:18.2351 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-06 17:06:18.2351 Info Configuration initialized.
+2024-08-06 17:06:20.1179 Info AppDomain Shutting down. LogFactory closing...
+2024-08-06 17:06:20.1179 Info LogFactory has been closed.
+2024-08-06 17:14:50.7689 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-06 17:14:50.8140 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-06 17:14:50.8304 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-06 17:14:50.8455 Info Configuration initialized.
+2024-08-06 17:19:45.5120 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-06 17:19:45.5252 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-06 17:19:45.5252 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-06 17:19:45.5387 Info Configuration initialized.
+2024-08-06 17:19:46.7281 Info AppDomain Shutting down. LogFactory closing...
+2024-08-06 17:19:46.7342 Info LogFactory has been closed.
+2024-08-06 17:19:57.3830 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-06 17:19:57.3830 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-06 17:19:57.3830 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-06 17:19:57.4034 Info Configuration initialized.
+2024-08-06 17:19:59.5369 Info AppDomain Shutting down. LogFactory closing...
+2024-08-06 17:19:59.5369 Info LogFactory has been closed.
+2024-08-06 17:42:56.8628 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-06 17:42:56.8839 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-06 17:42:56.8839 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-06 17:42:56.9015 Info Configuration initialized.
+2024-08-06 17:42:58.3807 Info AppDomain Shutting down. LogFactory closing...
+2024-08-06 17:42:58.3807 Info LogFactory has been closed.
+2024-08-06 17:43:29.7825 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-06 17:43:29.8191 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-06 17:43:29.8359 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-06 17:43:29.8537 Info Configuration initialized.
+2024-08-06 17:49:31.4395 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-06 17:49:31.4709 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-06 17:49:31.4709 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-06 17:49:31.4943 Info Configuration initialized.
+2024-08-06 17:50:18.8017 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-06 17:50:18.8699 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-06 17:50:18.8835 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-06 17:50:18.8999 Info Configuration initialized.
+2024-08-06 17:52:44.5852 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-06 17:52:44.5946 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-06 17:52:44.5946 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-06 17:52:44.5946 Info Configuration initialized.
+2024-08-06 17:52:45.2565 Info AppDomain Shutting down. LogFactory closing...
+2024-08-06 17:52:45.2565 Info LogFactory has been closed.
+2024-08-06 17:53:48.3567 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-06 17:53:48.3652 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-06 17:53:48.3652 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-06 17:53:48.3786 Info Configuration initialized.
+2024-08-06 17:53:49.3069 Info AppDomain Shutting down. LogFactory closing...
+2024-08-06 17:53:49.3069 Info LogFactory has been closed.
+2024-08-06 17:54:01.0853 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-06 17:54:01.0944 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-06 17:54:01.0944 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-06 17:54:01.0944 Info Configuration initialized.
+2024-08-06 17:54:03.0652 Info AppDomain Shutting down. LogFactory closing...
+2024-08-06 17:54:03.0652 Info LogFactory has been closed.
+2024-08-06 17:54:12.5263 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-06 17:54:12.5522 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-06 17:54:12.5522 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-06 17:54:12.5755 Info Configuration initialized.
+2024-08-06 18:07:28.0258 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-06 18:07:28.0619 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-06 18:07:28.0755 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-06 18:07:28.0911 Info Configuration initialized.
+2024-08-06 18:22:20.1359 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-06 18:22:20.1637 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-06 18:22:20.1637 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-06 18:22:20.1861 Info Configuration initialized.
+2024-08-06 18:27:31.2545 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-06 18:27:31.2937 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-06 18:27:31.3097 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-06 18:27:31.3236 Info Configuration initialized.
+2024-08-06 18:29:40.0317 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-06 18:29:40.0605 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-06 18:29:40.0735 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-06 18:29:40.0735 Info Configuration initialized.
+2024-08-06 18:32:18.3938 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-06 18:32:18.4248 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-06 18:32:18.4371 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-06 18:32:18.4572 Info Configuration initialized.
+2024-08-06 18:32:25.2553 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-06 18:32:25.3046 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-06 18:32:25.3253 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-06 18:32:25.3456 Info Configuration initialized.
+2024-08-07 08:48:28.7206 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-07 08:48:28.7449 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-07 08:48:28.7565 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-07 08:48:28.7675 Info Configuration initialized.
+2024-08-07 08:49:57.2319 Info AppDomain Shutting down. LogFactory closing...
+2024-08-07 08:49:57.2319 Info LogFactory has been closed.
+2024-08-07 09:04:52.6145 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-07 09:04:52.6491 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-07 09:04:52.6620 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-07 09:04:52.6620 Info Configuration initialized.
+2024-08-07 09:14:24.3234 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-07 09:14:24.3753 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-07 09:14:24.3833 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-07 09:14:24.3833 Info Configuration initialized.
+2024-08-07 09:41:29.1381 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-07 09:41:29.1665 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-07 09:41:29.1783 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-07 09:41:29.1891 Info Configuration initialized.
+2024-08-07 09:42:54.5982 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-07 09:42:54.6262 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-07 09:42:54.6376 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-07 09:42:54.6482 Info Configuration initialized.
+2024-08-07 10:02:47.7799 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-07 10:02:47.8390 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-07 10:02:47.8518 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-07 10:02:47.8654 Info Configuration initialized.
+2024-08-07 10:30:02.4519 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-07 10:30:02.4843 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-07 10:30:02.4952 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-07 10:30:02.5106 Info Configuration initialized.
+2024-08-07 10:36:27.7706 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-07 10:36:27.7877 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-07 10:36:27.7877 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-07 10:36:27.8067 Info Configuration initialized.
+2024-08-07 10:50:54.6389 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-07 10:50:54.6705 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-07 10:50:54.6705 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-07 10:50:54.6898 Info Configuration initialized.
+2024-08-07 10:56:16.0925 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-07 10:56:16.1155 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-07 10:56:16.1254 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-07 10:56:16.1366 Info Configuration initialized.
+2024-08-07 11:06:39.3443 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-07 11:06:39.3694 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-07 11:06:39.3694 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-07 11:06:39.3694 Info Configuration initialized.
+2024-08-07 12:07:32.3081 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-07 12:07:32.3371 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-07 12:07:32.3484 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-07 12:07:32.3484 Info Configuration initialized.
+2024-08-07 12:12:13.6105 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-07 12:12:13.6260 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-07 12:12:13.6350 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-07 12:12:13.6350 Info Configuration initialized.
+2024-08-07 13:19:30.0391 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-07 13:19:30.0673 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-07 13:19:30.0673 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-07 13:19:30.0892 Info Configuration initialized.
+2024-08-07 13:30:26.0283 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-07 13:30:26.0485 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-07 13:30:26.0580 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-07 13:30:26.0580 Info Configuration initialized.
+2024-08-07 13:48:25.5709 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-07 13:48:25.5957 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-07 13:48:25.5957 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-07 13:48:25.6140 Info Configuration initialized.
+2024-08-07 13:49:51.3301 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-07 13:49:51.3484 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-07 13:49:51.3484 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-07 13:49:51.3484 Info Configuration initialized.
+2024-08-07 14:01:57.5049 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-07 14:01:57.5234 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-07 14:01:57.5234 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-07 14:01:57.5415 Info Configuration initialized.
+2024-08-07 15:01:02.0445 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-07 15:01:02.0835 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-07 15:01:02.1013 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-07 15:01:02.1013 Info Configuration initialized.
+2024-08-07 15:04:22.4257 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-07 15:04:22.4536 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-07 15:04:22.4643 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-07 15:04:22.4726 Info Configuration initialized.
+2024-08-07 15:45:32.5616 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-07 15:45:32.6279 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-07 15:45:32.6279 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-07 15:45:32.6531 Info Configuration initialized.
+2024-08-07 15:49:40.4083 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-07 15:49:40.4312 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-07 15:49:40.4419 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-07 15:49:40.4419 Info Configuration initialized.
+2024-08-07 15:53:47.6773 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-07 15:53:47.7032 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-07 15:53:47.7032 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-07 15:53:47.7219 Info Configuration initialized.
+2024-08-07 15:58:39.5896 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-07 15:58:39.6198 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-07 15:58:39.6305 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-07 15:58:39.6506 Info Configuration initialized.
+2024-08-08 09:53:31.5648 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-08 09:53:31.5893 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-08 09:53:31.5893 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-08 09:53:31.5893 Info Configuration initialized.
+2024-08-08 09:53:32.7764 Info AppDomain Shutting down. LogFactory closing...
+2024-08-08 09:53:32.7764 Info LogFactory has been closed.
+2024-08-08 09:53:44.5515 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-08 09:53:44.5608 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-08 09:53:44.5608 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-08 09:53:44.5608 Info Configuration initialized.
+2024-08-08 09:53:48.2831 Info AppDomain Shutting down. LogFactory closing...
+2024-08-08 09:53:48.2831 Info LogFactory has been closed.
+2024-08-08 09:54:18.0341 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-08 09:54:18.0815 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-08 09:54:18.0923 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-08 09:54:18.0923 Info Configuration initialized.
+2024-08-08 09:57:23.7977 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-08 09:57:23.8250 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-08 09:57:23.8349 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-08 09:57:23.8349 Info Configuration initialized.
+2024-08-08 10:37:21.1070 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-08 10:37:21.1711 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-08 10:37:21.1811 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-08 10:37:21.1811 Info Configuration initialized.
+2024-08-08 10:39:04.1673 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-08 10:39:04.1964 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-08 10:39:04.2063 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-08 10:39:04.2163 Info Configuration initialized.
+2024-08-08 10:47:09.8401 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-08 10:47:09.8565 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-08 10:47:09.8565 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-08 10:47:09.8724 Info Configuration initialized.
+2024-08-08 10:50:44.5263 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-08 10:50:44.5539 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-08 10:50:44.5677 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-08 10:50:44.5822 Info Configuration initialized.
+2024-08-08 11:01:28.6325 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-08 11:01:28.6654 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-08 11:01:28.6654 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-08 11:01:28.6929 Info Configuration initialized.
+2024-08-08 11:53:22.3157 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-08 11:53:22.3400 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-08 11:53:22.3400 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-08 11:53:22.3621 Info Configuration initialized.
+2024-08-08 12:43:50.8031 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-08 12:43:50.8217 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-08 12:43:50.8217 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-08 12:43:50.8397 Info Configuration initialized.
+2024-08-08 14:07:08.7571 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-08 14:07:08.7849 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-08 14:07:08.7951 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-08 14:07:08.8064 Info Configuration initialized.
+2024-08-08 15:53:56.4991 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-08 15:53:56.5308 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-08 15:53:56.5410 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-08 15:53:56.5410 Info Configuration initialized.
+2024-08-08 15:56:09.8637 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-08 15:56:09.8881 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-08 15:56:09.8881 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-08 15:56:09.9080 Info Configuration initialized.
+2024-08-08 16:45:55.8435 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-08 16:45:55.9003 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-08 16:45:55.9145 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Sami\source\repos\WriteApiDemo\WriteApiDemo\nlog.config
+2024-08-08 16:45:55.9289 Info Configuration initialized.

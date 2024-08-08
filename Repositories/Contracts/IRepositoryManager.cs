@@ -9,6 +9,8 @@ namespace Repositories.Contracts
     public interface IRepositoryManager
     {
         IProductRepository Product { get; }
-        void Save();
+        IUserRepository User { get; }
+        ICategoryRepository Category { get; }
+        Task SaveAsync();
     }
 }

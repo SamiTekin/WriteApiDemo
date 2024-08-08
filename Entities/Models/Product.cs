@@ -12,6 +12,10 @@ namespace Entities.Models
         public string ProductName { get; set; }
         public string ProductDescription { get; set; }
         public decimal ProductPrice { get; set; }
-        public bool ProductType { get; set; }
+        public bool ProductType { get; set; } = true;
+      
+        public int UserId { get; set; }
+        public User User { get; set; }
     }
 }
+

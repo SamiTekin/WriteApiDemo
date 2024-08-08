@@ -1,5 +1,8 @@
 ﻿using Entities.Models;
+using Entities.RequestFeatures;
+using Microsoft.EntityFrameworkCore;
 using Repositories.Contracts;
+using Repositories.EFCore.Extensions;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -25,14 +28,20 @@ namespace Repositories.EFCore
             Delete(product);
         }
 
-        public IQueryable<Product> GetAllProducts(bool trackChages)
+        public async Task<PagedList<Product>> GetAllProductsAsync(ProductParameters productParameters, bool trackChages)
         {
-            return FindAll(trackChages).OrderBy(x => x.Id);
+            var products= await FindAll(trackChages).FilterProduct(productParameters.MinPrice,productParameters.MaxPrice)
+                .Search(productParameters.SearchTerm)
+                .Sort(productParameters.OrderBy)
+                .OrderBy(x => x.Id)
+                .ToListAsync();
+            return PagedList<Product>
+                .ToPagedList(products, productParameters.PageNumber, productParameters.PageSize);
         }
 
-        public Product GetProductsById(int id ,bool trackChanges)
+        public async Task<Product> GetProductsByIdAsync(int id ,bool trackChanges)
         {
-            return FindByCondition(x => x.Id == id, trackChanges).SingleOrDefault();
+            return await FindByCondition(x => x.Id == id, trackChanges).SingleOrDefaultAsync();
         }
 
         public void UpdateOneProduct(Product product)

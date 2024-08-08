@@ -11,6 +11,6 @@ namespace Entities.DataTransferObjects
     {
         [Required(ErrorMessage = "Bu alan boş geçilemez")]
         public int Id { get; init; }
-        public bool ProductType { get; init; }= true;
+        public bool ProductType { get; init; }
     }
 }

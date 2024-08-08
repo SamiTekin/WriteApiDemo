@@ -1,16 +1,20 @@
 ﻿using Entities.DataTransferObjects;
 using Entities.Exceptions;
 using Entities.Models;
+using Entities.RequestFeatures;
 using Microsoft.AspNetCore.Mvc;
+using Presentation.ActionFilters;
 using Services.Contracts;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.Json;
 using System.Threading.Tasks;
 
 namespace Presentation.Controllers
 {
+    [ServiceFilter(typeof(LogFilterAttribute))]
     [ApiController]
     [Route("api/products")]
     public class ProductsController : ControllerBase
@@ -23,52 +27,43 @@ namespace Presentation.Controllers
         }
 
         [HttpGet]
-        public IActionResult GetAllProduct()
+        public async Task<IActionResult> GetAllProductAsync([FromQuery]ProductParameters productParameters)
         {
-            var products = _manager.ProductService.GetAllProduct(false);
-            return Ok(products);
+            var pagedResult =await _manager
+                .ProductService
+                .GetAllProductAsync(productParameters, false);
+            Response.Headers.Add("X-Pagination", JsonSerializer.Serialize(pagedResult.metaData));
+            return Ok(pagedResult.product);
         }
         [HttpGet("{id:int}")]
-        public IActionResult GetOneProduct([FromRoute(Name = "id")] int id)
+        public async Task<IActionResult> GetOneProductAsync([FromRoute(Name = "id")] int id)
         {
-            var product = _manager.ProductService.GetProductById(id, false);
+            var product =await _manager.ProductService.GetProductByIdAsync(id, false);
             
             return Ok(product);
         }
+        
         [HttpPost]
-        public IActionResult CreateOneProduct([FromBody] ProductDtoForInsertion productdto)
+        public async Task<IActionResult> CreateOneProductAsync([FromBody] ProductDtoForInsertion productdto)
         {
-
-            if (productdto == null)
-            {
-                return BadRequest();
-            }
-            if (!ModelState.IsValid)
-            {
-                return UnprocessableEntity(ModelState);
-            }
-            var product=_manager.ProductService.CreateOneProduct(productdto);
+            var product= await _manager.ProductService.CreateOneProductAsync(productdto);
 
             return StatusCode(201, product);
 
         }
+  
         [HttpPut("{id:int}")]
-        public IActionResult UpdateOneProduct([FromRoute(Name = "id")] int id, [FromBody] ProductDtoForUpdate productdto)
+        public async Task<IActionResult> UpdateOneProductAsync([FromRoute(Name = "id")] int id, [FromBody] ProductDtoForUpdate productdto)
         {
-
-            if (productdto is null)
-                return BadRequest();
-            if(!ModelState.IsValid)
-                return UnprocessableEntity(ModelState);
-            _manager.ProductService.UpdateOneProduct(id, productdto, false);
+            await _manager.ProductService.UpdateOneProductAsync(id, productdto, false);
             return NoContent();
 
         }
         [HttpDelete("{id:int}")]
-        public IActionResult DeleteOneProduct([FromRoute(Name = "id")] int id)
+        public async Task<IActionResult> DeleteOneProductAsync([FromRoute(Name = "id")] int id)
         {
 
-            _manager.ProductService.DeleteOneProduct(id, false);
+            await _manager.ProductService.DeleteOneProductAsync(id, false);
             return NoContent();
 
         }

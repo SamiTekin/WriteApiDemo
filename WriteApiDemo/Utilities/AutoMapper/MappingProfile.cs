@@ -11,6 +11,12 @@ namespace WriteApiDemo.Utilities.AutoMapper
             CreateMap<ProductDtoForUpdate, Product>();
             CreateMap<Product, ProductDto>();
             CreateMap<ProductDtoForInsertion, Product>();
+            CreateMap<UserDtoForUpdate, User>();
+            CreateMap<User, UserDto>();
+            CreateMap<UserDtoForInsertion, User>();
+            CreateMap<CategoryDtoForUpdate , Category>();
+            CreateMap<Category, CategoryDto>();
+            CreateMap<CategoryDtoForInsertion, Category>();
         }
     }
 }
